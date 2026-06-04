@@ -1,36 +1,234 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Un viaje que me cambio la vida</title>
-</head>
-<body>
-    <h1>TENIENTE CORONEL NANCY GALLI, EJÉRCITO NACIONAL, MINUSTAH, 2008</h1>
-    <p>
-  Mi historia comienza cuando tenía apenas 15 años. Dejé mi hogar en Salto para embarcarme en un viaje que transformaría mi vida para siempre. Por primera vez salía de mi ciudad natal con destino a Montevideo, para ingresar al Liceo Militar "General Artigas".
-El liceo no fue solo mi centro de estudios: se convirtió en mi segundo hogar, donde empecé a crecer como persona, aprendí a caminar con firmeza y donde comenzaron los sueños que hoy me definen.
-Esta decisión, tan grande para una adolescente, no hubiese sido posible sin el amor, el ejemplo y el apoyo incondicional de mis padres. Aunque hoy ya no están conmigo, siguen siendo mi mayor fuerza.
-Mi madre, con su ternura y fortaleza silenciosa, y mi padre, con su trabajo incansable y su fe inquebrantable en mi, fueron mi motor desde siempre. Son ellos quienes me enseñaron a no rendirme, a avanzar con humildad, a ser agradecida y a soñar en grande.
-Todo lo que soy se lo debo a ellos.
-      
-      En esas tierras sentí, como pocas veces en mi vida, el peso y el honor de representar a Uruguay, un pais pequeño pero con un corazón gigante. Entendí que llevar la paz es mucho más que una misión: es un compromiso humano muy profundo.
-Hoy, que soy Jefa de Estudios en el mismo instituto donde me inicié, siempre comparto con los alumnos esta experiencia transformadora, porque creo que el conocimiento es una de las herramientas mas poderosas que existen.
-      
-Si en medio de tantos problemas hay niños que estudian con lo poco que tienen, nosotros debemos ser agradecidos y valorar cada oportunidad que se nos brinda.
-      
-Por eso, a los jóvenes les digo siempre: el estudio, el respeto, el compromiso y la solidaridad son la base de un verdadero ciudadano libre. Vivimos en un país que apuesta por la educación, por la paz y por los valores. Cuidarlo es también nuestra misión.
-      
-Ahora y siempre, cada vez que levanto la vista y veo mi uniforme, sé que llevo conmigo no solo el orgullo de haber servido en Haití, sino también el legado imborrable de mis padres, que desde el cielo me siguen guiando con amor.
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      Con el tiempo segui mi camino en la escuela Militar y, gracias a las oportunidades que me brindo el Ejercito Nacional, me torme con disciplina, caracter y vocación de servicio.
-No fue facil alejarme de mi familia siendo tan joven: tuve miedo, extrañe y llore, pero aprendi que de los desafios tambien nacen grandes recompensas.
-      
-Cuando me converti en Teniente Segundo sentí que era el momento de dar un paso más. Por eso, en el año 2008 decidi postularme como voluntaria para una Misión Operativa de Paz. Queria vivir en carne propia lo que significa servir a otros desde el corazón, así que, con orgullo, integre el contingente uruguayo que viajó y se desplegó en Haiti.
-Mi función era ser Jefa de la Sección de Transporte y Mantenimiento de la compañía de apoyo logístico del batallón. Estaba al frente de un equipo de conductores, mecánicos y personal encargado del mantenimiento y funcionamiento de los vehículos que usábamos.
-      
-La República de Haití, una tierra bendecida por la naturaleza, pero muy golpeada por la pobreza, las enfermedades y la inestabilidad, me abrió los ojos y el alma. Recuerdo a los niños que hacian filas desde la madrugada para buscar agua potable porque no tenian en sus hogares. Recuerdo también a quienes estudiaban bajo la luz de un foco en la calle porque en sus casas no había electricidad. A pesar de todo eso, reian, compartían y también tenían sueños. Hablaban varios idiomas, valoraban el conocimiento y abrazaban la vida con esperanza.
-      
-Mi misión en Haití me enseñó el verdadero significado de la resiliencia y la solidaridad.
-Nos recibieron con cariño, nos llamaban por nuestros grados militares y conocian nuestro país más de lo que imaginábamos.
-    </p>
+<title>Teniente Coronel Nancy Galli</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+    line-height:1.8;
+}
+
+header{
+    background:linear-gradient(135deg,#002b6b,#001845);
+    color:white;
+    padding:50px 25px;
+    border-bottom:5px solid #d4a017;
+}
+
+.header-container{
+    max-width:1100px;
+    margin:auto;
+}
+
+header h1{
+    font-size:clamp(2rem,5vw,3.5rem);
+    font-weight:bold;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1.1rem;
+    opacity:0.9;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+section{
+    margin-bottom:50px;
+}
+
+h2{
+    color:#002b6b;
+    font-size:2rem;
+    margin-bottom:20px;
+    position:relative;
+}
+
+h2::after{
+    content:"";
+    display:block;
+    width:70px;
+    height:4px;
+    background:#d4a017;
+    margin-top:10px;
+}
+
+p{
+    font-size:1.15rem;
+    margin-bottom:20px;
+}
+
+.quote{
+    background:#fffaf0;
+    border-left:6px solid #d4a017;
+    padding:25px;
+    margin:35px 0;
+    border-radius:10px;
+    font-size:1.2rem;
+    font-style:italic;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    margin-top:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.highlight{
+    background:#eef4ff;
+    border-radius:15px;
+    padding:25px;
+    margin-top:30px;
+    font-weight:bold;
+    color:#002b6b;
+    text-align:center;
+    font-size:1.15rem;
+}
+
+footer{
+    text-align:center;
+    background:#001845;
+    color:white;
+    padding:25px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+    header{
+        padding:35px 20px;
+    }
+
+    p{
+        font-size:1.05rem;
+    }
+
+    h2{
+        font-size:1.7rem;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>TENIENTE CORONEL NANCY GALLI</h1>
+        <p>Ejército Nacional • MINUSTAH • 2008</p>
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Mi historia</h2>
+
+        <p>
+            Mi historia comienza cuando tenía apenas 15 años. Dejé mi hogar en Salto para
+            embarcarme en un viaje que transformaría mi vida para siempre. Por primera vez
+            salía de mi ciudad natal con destino a Montevideo para ingresar al Liceo Militar
+            "General Artigas".
+        </p>
+
+        <p>
+            Ese lugar se convirtió en mi segundo hogar, donde crecí como persona,
+            aprendí a caminar con firmeza y comenzaron los sueños que hoy me definen.
+        </p>
+
+        <div class="quote">
+            “Todo lo que soy se lo debo a ellos. En esas tierras sentí, como pocas veces en mi vida,
+            el peso y el honor de representar a Uruguay.”
+        </div>
+
+        <p>
+            Esta decisión no hubiese sido posible sin el amor, el ejemplo y el apoyo
+            incondicional de mis padres, quienes me enseñaron a avanzar con humildad,
+            disciplina y perseverancia.
+        </p>
+    </section>
+
+    <section>
+        <h2>Mi misión y compromiso</h2>
+
+        <div class="card">
+            <p>
+                Entendí que llevar la paz es mucho más que una misión:
+                es un compromiso humano profundo.
+            </p>
+
+            <p>
+                Como Jefa de Estudios, comparto esta experiencia con los alumnos,
+                convencida de que el conocimiento es una de las herramientas más
+                poderosas para transformar vidas.
+            </p>
+        </div>
+
+        <p>
+            Vivimos en un país que apuesta por la educación, la paz y los valores.
+            Por eso considero fundamental valorar cada oportunidad que recibimos y
+            construir una sociedad basada en el respeto y la solidaridad.
+        </p>
+    </section>
+
+    <section>
+        <h2>Mi experiencia en Haití</h2>
+
+        <p>
+            En el año 2008 decidí postularme como voluntaria para una Misión Operativa
+            de Paz. Quería vivir en primera persona lo que significaba servir a otros
+            desde el corazón.
+        </p>
+
+        <p>
+            Mi función fue liderar la Sección de Transporte y Mantenimiento de la
+            compañía de apoyo logístico del batallón, coordinando equipos y recursos
+            para cumplir la misión.
+        </p>
+
+        <div class="card">
+            <p>
+                Haití me enseñó el verdadero significado de la resiliencia y la solidaridad.
+                Conocí personas que, a pesar de las dificultades, nunca perdieron la esperanza.
+            </p>
+        </div>
+
+        <p>
+            Aquella experiencia marcó profundamente mi vida y fortaleció mi compromiso
+            con el servicio, el trabajo en equipo y la ayuda a quienes más lo necesitan.
+        </p>
+
+        <div class="highlight">
+            Llevar la paz es mucho más que una misión: es un compromiso humano profundo.
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+    Historia inspiradora de servicio, liderazgo y compromiso.
+</footer>
+
 </body>
 </html>
