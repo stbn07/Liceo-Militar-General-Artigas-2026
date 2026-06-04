@@ -1,2 +1,2 @@
-# Liceo-Militar-General-Artigas-2026
+# Liceo-Militar-General-Artigas-Galli
 Sube tu foto
